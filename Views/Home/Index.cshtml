@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 content-box">
+
+            <h1 class="header">What's it like outside?</h1>
+
+            <p>Location: <span id="location"></span></p>
+
+            <p>Latitude: <span id="lat"></span> || Longitude: <span id="lon"></span></p>
+
+
+            <p>Current conditions: <span id="conditions"></span></p>
+
+            <p>Temperature:</p>
+            <div>
+                <a id="k-button" class="btn btn-primary" data-toggle="collapse">
+                    Kelvin
+                </a>&nbsp;&nbsp;
+
+                <a id="c-button" class="btn btn-primary" data-toggle="collapse">
+                    Celcius
+                </a>&nbsp;&nbsp;
+                <a id="f-button" class="btn btn-primary" data-toggle="collapse">
+                    Fahrenheit
+                </a>&nbsp;&nbsp;<span id="temperatureK"></span><span id="temperatureF"></span><span id="temperatureC"></span>
+            </div>
+
+
+            <p>&nbsp;</p>
+            <p>Forecast: <span id="foreca"></span></p>
+            <p class="small">
+                Weather via <a href="http://openweathermap.org/" target="_blank">openweathermap.org</a> || Photos courtesy of <a href="https://unsplash.com/"
+                                                                                                                                 target="_blank">Unsplash</a>
+            </p>
+        </div>
+        <div class="col-md-8">
+
+
+        </div>
+
+    </div>
+</div>
+
+
